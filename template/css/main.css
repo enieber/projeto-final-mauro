@@ -1,0 +1,81 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #e2dada;
+}
+
+/* Topo da Página*/
+
+header{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Menu a baixo do Topop*/
+
+.bar{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.bar li{
+    float: left;
+}
+.bar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.bar li a:hover{
+    background-color: #111;
+}
+
+/*Corpo da página - central*/
+main{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%
+}
+
+.pub1{
+    background-color: blanchedalmond;
+}
+
+.pub2{
+    background-color: blanchedalmond;
+}
+
+.pub3{
+    background-color: blanchedalmond;
+}
+
+.pub4{
+    background-color: blanchedalmond;
+}
+
+
+
+/*Rodapé da página*/
+footer{
+    bottom: 0;
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
